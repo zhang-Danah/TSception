@@ -38,6 +38,8 @@ if __name__ == '__main__':
     parser.add_argument('--reproduce', action='store_true')
     args = parser.parse_args()
 
+    print("这是第一条修改")
+
     sub_to_run = np.arange(args.subjects)
 
     pd = PrepareData(args)
